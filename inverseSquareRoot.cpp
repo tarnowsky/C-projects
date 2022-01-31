@@ -23,4 +23,5 @@ int main() {
     float n = 100;
 
     cout << Qrsqrt(n);
+    
 }
