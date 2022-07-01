@@ -9,5 +9,7 @@ int main()
     for (i=0; i < k; i++)
         printf("%c", (c[i] >= 'A' && c[i] <= 'Z') ? c[i] - 'A' + 'a' : c[i]);
 
+
+
     return 0;
 }
