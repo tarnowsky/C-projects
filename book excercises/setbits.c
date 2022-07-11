@@ -30,7 +30,7 @@ int base10to2(int n, int c[])
 {
     if (n == 0)
     {
-        c[0] = {0};
+        c[0] = 0;
         return 1;
     }
         
