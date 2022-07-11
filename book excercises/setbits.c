@@ -11,7 +11,7 @@ int main()
     x = 36;
     y = 11;
     p = 1;
-    n = 3;
+    n = 4;
 
     printf("x = ");
     writeDown(base10to2(x, c), c);
