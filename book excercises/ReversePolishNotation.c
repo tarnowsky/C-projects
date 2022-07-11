@@ -31,6 +31,10 @@ int main()
             case '*':
                 push(pop() * pop());
                 break;
+            case '%':
+                op2 = pop();
+                push((int) pop() % (int) op2);
+                break;
             case '/':
                 op2 = pop();
                 push(pop() / op2);
