@@ -3,8 +3,8 @@
 
 #define BUFSIZE 100
 
-char buf[BUFSIZE]; /*bufor dla ungetch*/
-int bufp = 0;      /*następna wolna pozycja w buforze*/
+static char buf[BUFSIZE]; /*bufor dla ungetch*/
+static int bufp = 0;      /*następna wolna pozycja w buforze*/
 
 int getch(void) /*pobiera znak (może być znakiem wcześniej wycofanym)*/
 {
